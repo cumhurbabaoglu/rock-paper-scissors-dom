@@ -3,6 +3,9 @@
 This is a mini-project based on an earlier assignment from [The Odin Project](https://www.theodinproject.com/). The assignment was console-based, and I wanted to rebuild it as a browser-based game using DOM manipulation and event-driven logic.
 [Console Version](https://github.com/cumhurbabaoglu/javascript-rock-paper-scissors)
 
+# Live Demo
+https://cumhurbabaoglu.github.io/rock-paper-scissors-dom/
+
 # Features
 - DOM Manipulation
 - Event handling (key, click)
