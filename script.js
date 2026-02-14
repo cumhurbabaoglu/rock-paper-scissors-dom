@@ -9,3 +9,7 @@ const displayHumanScore = document.querySelector("#human-score");
 const displayComputerScore = document.querySelector("#computer-score");
 const displayRound = document.querySelector("#round");
 const displayWinner = document.querySelector("#winner");
+
+changeTheme.addEventListener("click", (e) => {
+  body.classList.toggle("green-theme");
+})
