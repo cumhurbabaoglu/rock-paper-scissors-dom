@@ -100,3 +100,35 @@ displayComputerChoice.textContent = `Computer's Choice: ${computerSelection.toUp
 }
 
 let counter = 0;
+
+submitButton.addEventListener("click", (e) => {
+    if (userInput.value.trim() === "") {
+      alert("Please make your choice.")
+      return;
+    }
+    const validEntries = ["rock", "paper", "scissors"];
+    if (!validEntries.includes(userInput.value.toLowerCase())) {
+      alert("Please enter a valid option.");
+      userInput.value = "";
+      userInput.focus();
+      return;
+    }
+    counter++;
+    if (counter <= 5) {
+      displayRound.textContent = `ROUND: ${counter}`;
+      playGame();
+      userInput.value = "";
+      userInput.focus();
+      if (counter === 5) {
+        userInput.disabled = true;
+        submitButton.disabled = true;
+        if (humanScore > computerScore) {
+          displayWinner.textContent = `You beat the computer ${humanScore} to ${computerScore}!`;
+        } else if (humanScore < computerScore) {
+          displayWinner.textContent = `You were beaten by the computer ${computerScore} to ${humanScore}!`;
+        } else {
+          displayWinner.textContent = "It's a tie!";
+    }
+      }
+    }
+});
