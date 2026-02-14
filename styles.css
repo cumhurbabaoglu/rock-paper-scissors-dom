@@ -5,3 +5,28 @@
    margin: 0;
    padding: 0;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Space Mono", sans-serif;
+}
+
+#container {
+  background: pink;
+  height: 350px;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  border: 1px solid black;
+  border-radius: 30px;
+  margin-top: 60px;
+  box-shadow: 2px 2px 5px 1px black;
+}
