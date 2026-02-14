@@ -30,3 +30,15 @@ body {
   margin-top: 60px;
   box-shadow: 2px 2px 5px 1px black;
 }
+
+#textbox {
+  width: 300px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 8px;
+  background: #f26a8d;
+  border: 1px solid black;
+  width: 150px;
+}
