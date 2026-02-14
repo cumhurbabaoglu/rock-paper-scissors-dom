@@ -1,6 +1,6 @@
 # Description
 
-This is a mini-project based on an earlier assignment from The Odin Project. The assignment was console-based, and I wanted to rebuild it as a browser-based game using DOM manipulation and event-driven logic.
+This is a mini-project based on an earlier assignment from [The Odin Project](https://www.theodinproject.com/). The assignment was console-based, and I wanted to rebuild it as a browser-based game using DOM manipulation and event-driven logic.
 [Console Version](https://github.com/cumhurbabaoglu/javascript-rock-paper-scissors)
 
 # Features
@@ -42,4 +42,4 @@ During the refactoring process, I improved several decisions related to code org
 
 - Multiple mouseover & mouseout event listeners were replaced with CSS :hover
 - Window.location.reload() in reset click event was changed to state reset logic
-- Flag-based theme change control was replaced with toggle()
+- Flag-based theme change control was replaced with classList.toggle()
