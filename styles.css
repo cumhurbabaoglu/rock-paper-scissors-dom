@@ -54,3 +54,7 @@ h1 {
 #round, #information, #winner {
     font-weight: bold;
 }
+
+#winner {
+    color: red;
+}
