@@ -98,3 +98,5 @@ const computerSelection = getComputerChoice();
 playRound(humanSelection, computerSelection);
 displayComputerChoice.textContent = `Computer's Choice: ${computerSelection.toUpperCase()}`;
 }
+
+let counter = 0;
