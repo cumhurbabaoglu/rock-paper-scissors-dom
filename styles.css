@@ -58,3 +58,20 @@ h1 {
 #winner {
     color: red;
 }
+
+body.green-theme {
+  background-color: #a3b18a;
+}
+
+body.green-theme #container {
+  background-color: #dad7cd;
+}
+
+body.green-theme button {
+  color: white;
+  background-color: #588157
+}
+
+body.green-theme button:hover {
+  background-color: #90a955;
+}
