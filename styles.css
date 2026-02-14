@@ -42,3 +42,7 @@ button {
   border: 1px solid black;
   width: 150px;
 }
+
+button:hover {
+  background-color: lightblue;
+}
