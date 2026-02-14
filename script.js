@@ -30,3 +30,8 @@ reset.addEventListener("click", (e) => {
     userInput.focus();
 })
 
+userInput.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    submitButton.click();
+  }
+})
