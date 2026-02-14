@@ -13,3 +13,20 @@ const displayWinner = document.querySelector("#winner");
 changeTheme.addEventListener("click", (e) => {
   body.classList.toggle("green-theme");
 })
+
+reset.addEventListener("click", (e) => {
+    counter = 0;
+    humanScore = 0;
+    computerScore = 0;
+    displayRound.textContent = "";
+    displayWinner.textContent = "";
+    displayGameInfo.textContent = "";
+    displayComputerScore.textContent = "";
+    displayHumanScore.textContent = "";
+    displayComputerChoice.textContent = "";
+    submitButton.disabled = false;
+    userInput.disabled = false;
+    userInput.value = "";
+    userInput.focus();
+})
+
