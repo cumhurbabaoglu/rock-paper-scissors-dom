@@ -103,16 +103,19 @@ let counter = 0;
 
 submitButton.addEventListener("click", (e) => {
     if (userInput.value.trim() === "") {
-      alert("Please make your choice.")
+      displayWinner.textContent = "Please make a choice!"
       return;
     }
     const validEntries = ["rock", "paper", "scissors"];
     if (!validEntries.includes(userInput.value.toLowerCase())) {
-      alert("Please enter a valid option.");
+      displayWinner.textContent = "Please enter a valid option!"
       userInput.value = "";
       userInput.focus();
       return;
     }
+
+    displayWinner.textContent = "";
+    
     counter++;
     if (counter <= 5) {
       displayRound.textContent = `ROUND: ${counter}`;
