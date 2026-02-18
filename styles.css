@@ -46,6 +46,11 @@ button {
   transition: all 0.5s ease;
 }
 
+button.pressed {
+    transform: translateY(3px);
+    box-shadow: 0 1px 0 black;
+}
+
 button:hover {
   background-color: lightblue;
 }
