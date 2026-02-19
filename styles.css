@@ -38,6 +38,7 @@ body {
   border-radius: 25px;
   text-align: center;
   box-shadow: 0.5px 0.5px 0.5px 0.5px black;
+  font-weight: bold;
 }
 
 button {
@@ -49,6 +50,7 @@ button {
   box-shadow: 1px 1px 1px 1px black;
   cursor: pointer;
   transition: all 0.25s ease;
+  font-weight: bold;
 }
 
 button.pressed {
