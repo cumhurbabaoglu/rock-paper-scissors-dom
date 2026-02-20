@@ -12,6 +12,7 @@ const displayWinner = document.querySelector("#winner");
 
 changeTheme.addEventListener("click", (e) => {
   body.classList.toggle("green-theme");
+  userInput.focus();
 })
 
 reset.addEventListener("click", (e) => {
@@ -104,6 +105,7 @@ let counter = 0;
 submitButton.addEventListener("click", (e) => {
     if (userInput.value.trim() === "") {
       displayWinner.textContent = "Please make a choice!"
+      userInput.focus();
       return;
     }
     const validEntries = ["rock", "paper", "scissors"];
