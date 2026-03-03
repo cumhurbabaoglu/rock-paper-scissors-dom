@@ -1,7 +1,9 @@
 # Description
 
-This is a mini-project based on an earlier assignment from [The Odin Project](https://www.theodinproject.com/). The assignment was console-based, and I wanted to rebuild it as a browser-based game using DOM manipulation and event-driven logic.
-[Console Version](https://github.com/cumhurbabaoglu/javascript-rock-paper-scissors)
+This is a mini-project based on an earlier assignment from [The Odin Project](https://www.theodinproject.com/). The assignment was initially console-based, and I wanted to rebuild it as a browser-based game using DOM manipulation and event-driven logic. Later in the curriculum, a new task required converting the original one into a UI-based one. As a result, the game now has two versions. The main difference between the two is that the version in this repo takes input from the user while the other one is played by clicking buttons and is cleaner in terms of code structure.
+
+[Button Version Repository](https://github.com/cumhurbabaoglu/javascript-rock-paper-scissors)
+[Live Demo](https://cumhurbabaoglu.github.io/javascript-rock-paper-scissors/)
 
 # Live Demo
 https://cumhurbabaoglu.github.io/rock-paper-scissors-dom/
